@@ -1,0 +1,10 @@
+
+{
+        "@context":"https://njcoast.github.io/dataschema/context.jsonld",
+        "index_SLT": [1, 1],
+        "index_W": 0,
+        "index_prob": 1,
+        "indicator": 1,
+        "param": [0.301434160519901, 1.316411769254250, -1.356847757887963, 1.063457090837427, -0.710846159606253, 0.118771285297889],
+        "timeMC": 10
+}
