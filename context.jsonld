@@ -1,0 +1,15 @@
+{
+    "@context":
+    {
+        "njcoast": "https://njcoast.us/vocab/v1.0/schema#",
+        "qudt": "http://www.qudt.org/qudt/owl/1.0.0/qudt#",
+
+        "prov": "http://www.w3.org/ns/prov#",
+        "dcterms": "http://purl.org/dcterms#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "fgdc": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld#"
+    
+    
+    }
+}

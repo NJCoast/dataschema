@@ -1,0 +1,51 @@
+{
+    "@context": "https://njcoast.us/vocab/v1.0/context.jsonld",
+    "@id": "http://njcoast.us/data.json"
+    "@type": "dcat:Catalog",
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema", 
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataset": [
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public", 
+            "accrualPeriodicity": "R/P1Y", 
+            "bureauCode": [
+                "000:000"
+            ],
+           "conformsTo": "http://www.agency.gov/widget-taxonomy/",
+           "contactPoint": {
+               "@type": "vcard:Contact",
+               "fn": "Jane Doe", 
+               "hasEmail": "mailto:jane.doe@nj.gov"
+            },
+            "describedBy": "http://www.agency.gov/datasets/widgets-dictionary.html", 
+            "dataQuality": true, 
+            "description": "Output from NJCoast wave surge computational models.",
+            "distribution": [
+                {
+                    @type": "dcat:Distribution",
+                    "accessURL": "https://data.agency.gov/api/widgets-statistics/", 
+                    "description": "A fully queryable REST API with JSON", 
+                    "format": "API", 
+                    "title": "Computational Model REST API"
+                }
+            ],
+            "identifier": "http://dx.doi.org/10.7927/H4PZ56R2",
+            "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Department of Community Affairs", 
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "State of New Jersey", 
+                    }
+                },
+            "references": [
+                "http://agency.gov/docs/widgets-1.html", 
+                "http://agency.gov/docs/widgets-2.html"
+            ], 
+            "rights": "This dataset has been given an international public domain dedication for worldwide reuse", 
+            "spatial": "United States"
+        }
+    ]
+}
